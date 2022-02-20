@@ -8,7 +8,7 @@ export function Profile(){
            document.querySelector(`[data-id='${target}']`).classList.add("selected");
 
 
-        GAME.turn = target == 'y' || target == 'y2' ? true : false;
+        GAME.turn = target == 'y'? true : false;
 
        });
     });
